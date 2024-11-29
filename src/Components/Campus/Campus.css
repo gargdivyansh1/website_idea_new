@@ -1,0 +1,23 @@
+.campus{
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+}
+
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.gallery img{
+    width: 23%;
+    border-radius: 10px;
+}
+
+/*when there are two classes and we have to use them both then we can use the other by applying the dot in the end of the first*/
+.btn.dark_btn{
+    background: #212EA0;
+    color: #fff;
+}
