@@ -25,3 +25,24 @@
     margin: 10px auto 20px;
     line-height: 1.4;
 }
+
+/* media query for making it responsive */
+
+@media (max-width: 950px){
+    .hero_text h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 650px){
+    .hero_text h1{
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .hero_text p{
+        font-size: 14px;
+        margin: 15px auto 30px;
+    }
+}

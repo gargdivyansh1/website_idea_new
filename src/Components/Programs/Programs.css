@@ -46,3 +46,15 @@
     width: 60px;
     margin-bottom: 10px;
 }
+
+/* media query for responsive */
+
+@media (max-width: 650px){
+    .programs{
+        flex-direction: column;
+    }
+    .program{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+}
